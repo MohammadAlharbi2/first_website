@@ -1,0 +1,39 @@
+    body {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    text-align: center; 
+  background-color: lightblue;
+  animation: colorChange 9s infinite linear;
+}
+h1{
+  color: darkblue;
+}
+h2 {
+  color: darkblue;
+}
+li {
+  color: darkred;
+}
+p {
+    font-size: xx-large;
+    color: darkred;
+}
+@keyframes colorChange {
+  0% { background-color: lightblue; }
+  33% { background-color: lightpink; }
+  66% { background-color: lightcyan; }
+  100% { background-color: lightblue; }
+  
+}
+@keyframes colorChange2 {
+  0% { background-color: rgb(226, 112, 106); }
+  33% { background-color: lightblue; }
+  66% { background-color: rgb(226, 112, 106); }
+  100% { background-color: lightblue; }
+  
+}
+img {
+    width: 600px;
+    height: 600px;
+}
